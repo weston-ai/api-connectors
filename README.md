@@ -2,9 +2,9 @@
 ## A lightweight framework for building reusable API --> Postgres connectors.  
 
 ### **This repo demonstrates:** 
-- pulling real-world data from multiple public APIs on a schedule
-- landing clean data into local and cloud SQL database
-- keeping the workflow incremental, idempotent, and observable.
+- Pulling real-world data from multiple public APIs on a schedule
+- Landing clean data into local and cloud SQL database
+- Keeping the workflow incremental, idempotent, and observable.
 
 ### **Stack:** 
 - Python (requests/httpx)
