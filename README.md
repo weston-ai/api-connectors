@@ -2,13 +2,16 @@
 ## A lightweight framework for building reusable API-to-Postgres connectors.  
 
 ## **This repo demonstrates how to**: 
-- pull from multiple public APIs on a schedule
-- land clean data into local and cloud database
-- keep the workflow incremental, idempotent, and observable.
+### - pull from multiple public APIs on a schedule
+### - land clean data into local and cloud database
+### - keep the workflow incremental, idempotent, and observable.
 
-## **Stack**: Python (requests/httpx), SQLAlchemy, Postgres, .env for secrets, logging + retries, optional Docker.
+### **Stack**: 
+- Python (requests/httpx)
+- SQLAlchemy, Postgres 
+- .env for secrets, logging + retries, optional Docker.
 
-## **Features**:
+### **Features**:
 - Reusable connector template with clear extract → transform → load pattern
 - Config & secrets management via .env
 - Built-in retry logic with exponential backoff & jitter
@@ -17,12 +20,12 @@
 - Centralized logging for progress, retries, and errors
 - Version-controlled DDL in sql/
 
-## **Example connectors**:
+### **Example connectors**:
 *Open-Meteo* – no-auth hourly weather data, simple GET + pagination
 *GitHub REST* – personal token auth, rate limiting, incremental sync with updated_at cursor
 *Hacker News* – high fan-out/fan-in API calls, batching strategy
 
-## **Deliverables**:
+### **Deliverables**:
 connectors/ with per-API modules and shared utilities (http.py, db.py, util.py)
 DDL scripts under sql/
 A Makefile/justfile for repeatable runs
