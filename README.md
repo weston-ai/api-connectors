@@ -30,4 +30,4 @@
 - DDL scripts under sql/
 - A Makefile/justfile for repeatable runs
 
-### - This project teaches real-world data engineering skills: auth, pagination, retries, batching, schema design, and incremental loading.
+### This project teaches real-world data engineering skills: auth, pagination, retries, batching, schema design, and incremental loading.
